@@ -1,0 +1,23 @@
+{
+    "name": "onetwothreecoinpaycom/magento2",
+    "description": "Payment method for magento2 use cryptocurrency",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Darth Vade",
+            "email": "darthvade235@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "monolog/monolog": "2.x-dev"
+    },
+    "autoload": {
+        "files": [
+          "registration.php"
+        ],
+        "psr-4": {
+          "Onetwothreecoinpays\\Onetwothreecoinpays\\": ""
+        }
+      }
+}
